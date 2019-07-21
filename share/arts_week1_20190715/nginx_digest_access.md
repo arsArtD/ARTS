@@ -4,7 +4,7 @@
 
 * https://www.nginx.com/resources/wiki/modules/auth_digest/
   
-  默认 ngx_http_auth_digest 模块是编译到nginx的
+  默认 ngx_http_auth_digest 模块是不编译到nginx的
   
   
 ```
