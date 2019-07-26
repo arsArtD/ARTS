@@ -27,3 +27,8 @@ Share一个价值观的分享
 ## 关于项目中某些模块的做法
 
 参照： [share.md](/share.md)
+
+## 已经完成的挑战
+
+[week1_20190715](/toZhihu/arts_week1_20190715.md)
+[week2_20190722](/toZhihu/arts_week2_20190722.md)
