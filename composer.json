@@ -1,0 +1,12 @@
+{
+    "name": "thinkpad/arts_week3_20190729",
+    "authors": [
+        {
+            "name": "arsArtD",
+            "email": "xueshuxuede@yeah.net"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^8.3"
+    }
+}
