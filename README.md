@@ -32,3 +32,5 @@ Share一个价值观的分享
 
 [week1_20190715](/toZhihu/arts_week1_20190715.md)
 [week2_20190722](/toZhihu/arts_week2_20190722.md)
+[week2_20190729](/toZhihu/arts_week2_20190729.md)
+[week2_20190805](/toZhihu/arts_week2_20190805.md)
