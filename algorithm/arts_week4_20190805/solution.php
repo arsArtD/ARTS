@@ -76,15 +76,17 @@ class Solution {
         }
         //公式算出的值可能会比数组的长度小，取两者中最大的那个
         $result = max(($count[25] - 1) * ($n + 1) + $maxCount , sizeof($tasks));
+        //var_dump($result);
         return $result;
     }
 }
 
 
-$s = new Solution();
-$s->setTasks(["A","A","A","B","B","B"]);
-$s->setTaskDisableTime(2);
-$s->leastInterval($s->getTasks(), $s->getTaskDisableTime());
+//$s = new Solution();
+//$s->setTasks(["A","A","A","B","B","B"]);
+//$s->setTasks(["A","B","A"]);
+//$s->setTaskDisableTime(2);
+//$s->leastInterval($s->getTasks(), $s->getTaskDisableTime());
 
 
 /*

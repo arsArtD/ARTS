@@ -30,7 +30,8 @@ Share一个价值观的分享
 
 ## 已经完成的挑战
 
-[week1_20190715](/toZhihu/arts_week1_20190715.md)
-[week2_20190722](/toZhihu/arts_week2_20190722.md)
-[week2_20190729](/toZhihu/arts_week2_20190729.md)
-[week2_20190805](/toZhihu/arts_week2_20190805.md)
+[week1_20190715](/toZhihu/arts_week1_20190715.md)  
+[week2_20190722](/toZhihu/arts_week2_20190722.md)  
+[week3_20190729](/toZhihu/arts_week3_20190729.md)  
+[week4_20190805](/toZhihu/arts_week4_20190805.md)  
+[week5_20190812](/toZhihu/arts_week5_20190812.md)  
