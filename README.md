@@ -36,3 +36,4 @@ Share一个价值观的分享
 [week4_20190805](/toZhihu/arts_week4_20190805.md)  
 [week5_20190812](/toZhihu/arts_week5_20190812.md) 
 [week6_20190819](/toZhihu/arts_week6_20190819.md)   
+[week6_20190826](/toZhihu/arts_week7_20190826.md)   
