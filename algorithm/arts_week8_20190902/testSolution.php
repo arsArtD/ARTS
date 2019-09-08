@@ -16,6 +16,6 @@ class testSolution extends TestCase
 
     function test1()
     {
-        $this->assertEquals([2],$this->cls->intersection([1,2,2,3],[2,5,6]));
+        $this->assertEquals([2],$this->cls->intersection([1,2,2,3],[2,2,5,6]));
     }
 }
