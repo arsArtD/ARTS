@@ -1,0 +1,10 @@
+<?php
+
+//header("Content-type: text/html; charset=utf-8");
+//header("Content-type: text/html; charset=gbk");
+$php_cmd_dir = '/usr/bin/php';
+$think = dirname(__DIR__).DIRECTORY_SEPARATOR.'think';
+
+$res = exec("$php_cmd_dir $think demo:command_01 2>&1",$out,$return_status);
+
+var_dump($out,$return_status);
