@@ -73,8 +73,8 @@ _**A co-occurrence matrix is a matrix that contains the number of
 counts of each word appearing next to all the other words in the corpus 
 (or training set). Let’s visualize this matrix.**_
 
-[1.png](1.png)  
-[2.png](2.png)
+![1.png](1.png)  
+![2.png](2.png)
 
 Notice that through this simple matrix, we’re able to gain pretty useful 
 insights. For example, notice that the words ‘love’ and ‘like’ both contain 1’s 
@@ -129,7 +129,7 @@ Maximum Likelihood(最大似然估计) principle to maximize the probability of 
 wt (for “target”) given the previous words h (for “history”) in terms of a 
 softmax(分类器) function
 
-[3.png](3.png)
+![3.png](3.png)
 
 where score(wt, h) computes the compatibility of the target word wt with 
 the context h (a dot product is commonly used).
@@ -137,7 +137,7 @@ the context h (a dot product is commonly used).
 We train this model by maximizing its log-likelihood(对数似然) on the training set. So, 
 let’s maximize the below loss function(损耗函数)-
 
-[4.png](4.png)
+![4.png](4.png)
 
 This yields a properly normalized probabilistic model for language modeling.
 
@@ -149,7 +149,7 @@ Our goal is to find word representations that are useful for predicting the
 surrounding words given a current word. In particular, we wish to 
 maximize the average log probability across our entire corpus(语料库):
 
-[5.png](5.png)
+![5.png](5.png)
 
 This equation(方程式) essentially(本质上，本来) says that there is some probability p 
 of observing a particular word that’s within a window of size c of the current word wt. This 
@@ -163,13 +163,13 @@ vector with dimension N and theta to be a N * K matrix embedding matrix
 where we have N words in our vocabulary and our learned embeddings 
 have dimension K, then we can define-
 
-[6.png](6.png)
+![6.png](6.png)
 
 It is worth noting that after learning, the matrix theta can be thought of as 
 an embedding lookup matrix.
 
 In terms of(在...方面) architecture it is a simple three-layered neural network.
-[7.png](7.png)
+![7.png](7.png)
 
 * Take a 3 layer neural network. (1 input layer + 1 hidden layer + 1 output layer)
 * Feed it a word and train it to predict its neighbouring word.
@@ -191,11 +191,11 @@ The CBOW and skip-gram models are instead trained using a binary
 classification objective (logistic regression--逻辑回归) to discriminate(区别) the real target 
 words (wt) from k imaginary (noise) words ~w, in the same context.
 
-[8.png](8.png)
+![8.png](8.png)
 
 Mathematically, the objective (for each example) is to maximize
 
-[9.png](9.png)
+![9.png](9.png)
 
 This objective is maximized when the model assigns high probabilities to 
 the real words, and low probabilities to noise words. Technically, this is 
@@ -255,13 +255,13 @@ For simplicity let’s say num_noise=1 and we select sheep as a noisy example.
  为了简单起见，我们假设num_noise=1，并选择sheep作为一个有噪声的示例。接下来，我们计算这对
  观测到的和有噪声的例子的损失，即目标在时间步长t变为-
 
-[10.png](10.png)
+![10.png](10.png)
 
 The goal is to make an update to the embedding parameters theta to 
 maximize this objective function. We do this by deriving the gradient of the 
 loss with respect to the embedding parameters theta
 
-[11.png](11.png)
+![11.png](11.png)
 
 We then perform an update to the embeddings by taking a small step in the 
 direction of the gradient. When this process is repeated over the entire 
@@ -280,7 +280,7 @@ We can visualize the learned vectors by projecting them down to 2 dimensions.
 我们可以把学过的向量投影到二维空间中来形象化。当我们检查这些可视化时，很明显，
 这些向量捕获了一些关于单词及其相互关系的一般的、实际上非常有用的语义信息。
 
-[12.png](12.png)
+![12.png](12.png)
 
 
 My Next Blog
