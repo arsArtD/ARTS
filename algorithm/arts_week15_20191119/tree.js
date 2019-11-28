@@ -51,6 +51,10 @@ function buildTree(arr) {
     return data[0];
 }
 
-var tree = buildTree([3,5,1,6,2,0,8,null,null,7,4]);
-console.log(tree)
-console.log(JSON.stringify(tree))
+//var tree = buildTree([3,5,1,6,2,0,8,null,null,7,4]);
+//console.log(tree)
+//console.log(JSON.stringify(tree))
+
+module.exports = {
+    'buildTree': buildTree
+}
