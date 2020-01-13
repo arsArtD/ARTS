@@ -46,8 +46,9 @@ Share一个价值观的分享
 [week14_20191105](/toZhihu/arts_week14_20191105.md)  
 [week15_20191105](/toZhihu/arts_week15_20191119.md)  
 [week16_20191127](/toZhihu/arts_week16_20191127.md)  
-[week17_20191202](/toZhihu/arts_week17_20191202.md) 
-[week18_20191210](/toZhihu/arts_week18_20191210.md) 
-[week19_20191216](/toZhihu/arts_week19_20191216.md) 
-[week20_20191223](/toZhihu/arts_week20_20191223.md) 
+[week17_20191202](/toZhihu/arts_week17_20191202.md)   
+[week18_20191210](/toZhihu/arts_week18_20191210.md)  
+[week19_20191216](/toZhihu/arts_week19_20191216.md)  
+[week20_20191223](/toZhihu/arts_week20_20191223.md)  
+[week21_20200106](/toZhihu/arts_week21_20200106.md)   
 
