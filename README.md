@@ -52,4 +52,6 @@ Share一个价值观的分享
 [week20_20191223](/toZhihu/arts_week20_20191223.md)  
 [week21_20200106](/toZhihu/arts_week21_20200106.md)   
 [week22_20200113](/toZhihu/arts_week22_20200113.md)  
-[week23_20200203](/toZhihu/arts_week23_20200203.md)  
+[week23_20200203](/toZhihu/arts_week23_20200203.md)   
+[week24_20200217](/toZhihu/arts_week24_20200217.md)  
+[week25_20200302](/toZhihu/arts_week25_20200302.md)  
