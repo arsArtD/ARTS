@@ -60,3 +60,4 @@ Share一个价值观的分享
 [week28_20200420](/toZhihu/arts_week28_20200420.md)  
 [week29_20200507](/toZhihu/arts_week29_20200507.md)  
 [week30_20200525](/toZhihu/arts_week30_20200525.md)  
+[week31_20200601](/toZhihu/arts_week30_20200601.md)  
