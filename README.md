@@ -63,3 +63,4 @@ Share一个价值观的分享
 [week31_20200601](/toZhihu/arts_week31_20200601.md)   
 [week32_20200615](/toZhihu/arts_week32_20200615.md)   
 [week33_20200629](/toZhihu/arts_week33_20200629.md)   
+[week34_20200713](/toZhihu/arts_week34_20200713.md)   
