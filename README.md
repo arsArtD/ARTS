@@ -68,4 +68,5 @@ Share一个价值观的分享
 [week36_20200810](/toZhihu/arts_week36_20200810.md)   
 [week37_20200824](/toZhihu/arts_week37_20200824.md)   
 [week38_20200907](/toZhihu/arts_week38_20200907.md)   
-[week39_20201010](/toZhihu/arts_week39_20201010.md)   
+[week39_20200921](/toZhihu/arts_week39_20200921.md)   
+[week40_20201012](/toZhihu/arts_week40_20201012.md)   
