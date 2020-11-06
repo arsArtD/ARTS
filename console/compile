@@ -1,0 +1,136 @@
+<?php
+
+/**
+ * 本脚本主要用来生成 arts 的目录
+ * createtime: 2020-11-06 11:03
+ */
+
+define('DS', DIRECTORY_SEPARATOR);
+
+$srcDir = dirname(__DIR__).DS. 'toZhihu';
+
+$algs       = [];
+$reviews    = [];
+$shares     = [];
+$tips       = [];
+
+
+$fileNames = [];
+$fTemp = scandir($srcDir);
+$fTemp = array_slice($fTemp, 2);
+usort($fTemp, function($a, $b) {
+    $ta = explode('_', $a);
+    $tb = explode('_', $b);
+    $r1 = str_replace('week', '', $ta[1]);
+    $r2 = str_replace('week', '', $tb[1]);
+    return $r1 < $r2 ? -1 : 1;
+});
+
+foreach ($fTemp as $fv) {
+    if($fv === '.' || $fv === '..') continue;
+    $fileNames[] = $srcDir.DS.$fv;
+}
+
+function parseMd($str) {
+
+    global $algs,$reviews,$shares,$tips;
+//    $str = <<<STR
+//    algorithm:
+//    [算法-两数之和](/algorithm/arts_week1_20190715/leetcode_1.md)
+//review:
+//[图片类app数据安全](/review/arts_week1_20190715/readme.md)
+//tip:
+//[数据结构--数组](/tip/arts_week1_20190715/数组.md)
+//share:
+//[api认证技术](/share/arts_week1_20190715/api认证技术.md)
+//STR;
+   $strArr = preg_split("/\r\n|\n|\r/",  $str);
+
+    $algStart = false;
+    $reviewStart = false;
+    $tipStart = false;
+    $shareStart = false;
+    foreach($strArr as $index => $strItem) {
+        if(trim($strItem) === '') continue;
+
+
+        if(trim($strItem) == 'algorithm:') {
+            $algStart = true;
+            continue;
+        }
+
+        if(trim($strItem) == 'review:') {
+            $algStart = false;
+            $reviewStart = true;
+            continue;
+        }
+
+        if(trim($strItem) == 'tip:') {
+            $algStart = false;
+            $reviewStart = false;
+            $tipStart = true;
+            continue;
+        }
+
+        if(trim($strItem) == 'share:') {
+            $algStart = false;
+            $reviewStart = false;
+            $tipStart = false;
+            $shareStart = true;
+            continue;
+        }
+
+        if($algStart === true) {
+            $algs[] = trim($strItem);
+        }
+
+        if($reviewStart === true) {
+            $reviews[] = trim($strItem);
+        }
+
+        if($tipStart === true) {
+            $shares[] = trim($strItem);
+        }
+
+        if($shareStart === true) {
+            $tips[] = trim($strItem);
+        }
+
+   }
+   //var_dump($algs, $reviews, $shares, $tips);
+
+}
+
+//print_r($fileNames);exit;
+
+foreach($fileNames as $f) {
+    $fc = file_get_contents($f);
+    parseMd($fc);
+}
+
+
+function outputToHtml($path, $arrs) {
+    foreach($arrs as $item) {
+        file_put_contents($path, $item.PHP_EOL.PHP_EOL, FILE_APPEND);
+    }
+}
+
+$dstDir = dirname(__DIR__) . DS . 'index.md';
+
+// 清空内容
+file_put_contents($dstDir, '');
+
+file_put_contents($dstDir, 'algorithm:'.PHP_EOL.PHP_EOL, FILE_APPEND);
+outputToHtml($dstDir, $algs);
+
+file_put_contents($dstDir, 'review:'.PHP_EOL.PHP_EOL, FILE_APPEND);
+outputToHtml($dstDir, $reviews);
+
+file_put_contents($dstDir, 'tip:'.PHP_EOL.PHP_EOL, FILE_APPEND);
+outputToHtml($dstDir, $tips);
+
+file_put_contents($dstDir, 'share:'.PHP_EOL.PHP_EOL, FILE_APPEND);
+outputToHtml($dstDir, $shares);
+
+
+
