@@ -30,6 +30,8 @@ function getMaxWeek($dir) {
     });
     $last = end($files);
     $lastDay = str_replace('.md', '', explode('_', $last)[2]);
+    $lastNum = str_replace('week', '', explode('_', $last)[1]);
+
     $lastDayTime = strtotime($lastDay);
     // 获取当前最后创建文件的week下下周一的时间
     $nextweekMonday = date("Ymd", mktime(0, 0 , 0,
@@ -37,10 +39,12 @@ function getMaxWeek($dir) {
         date("d", $lastDayTime)-date("w", $lastDayTime)+1+14,
         date("Y"))
     );
-    return $nextweekMonday;
+    return [$lastNum, $nextweekMonday];
 }
 
-$mdFileName = getMaxWeek($srcDir[0]);
+list($mdFileNum, $lastDay) = getMaxWeek($srcDir[0]);
+
+$mdFileName = sprintf('arts_week%s_%s', $mdFileNum + 1, $lastDay);
 
 foreach($srcDir as $dir) {
     $dirName = $dir.DS. $mdFileName;
