@@ -96,6 +96,12 @@ algorithm:
 
 [#235. 二叉搜索树的最近公共祖先](/algorithm/arts_week40_20201012/Solution.php)
 
+[#160. 相交链表](/algorithm/arts_week41_20201027/20201030/Solution.php)
+
+[#155. 最小栈](/algorithm/arts_week41_20201027/20201103/MinStack.php)
+
+[#217. 存在重复元素](/algorithm/arts_week41_20201027/20201106/Solution.php)
+
 review:
 
 [图片类app数据安全](/review/arts_week1_20190715/readme.md)
@@ -177,6 +183,8 @@ review:
 [一致性算法-Gossip协议详解二(Memberlist实践)](/review/arts_week39_20200921/readme.md)
 
 [redis常见延迟问题定位与分析](/review/arts_week40_20201012/readme.md)
+
+[富文本选型](/review/arts_week41_20201027/readme.md)
 
 tip:
 
@@ -269,6 +277,8 @@ tip:
 [linux欢迎语](/share/arts_week39_20200921/linux欢迎语.md)
 
 [php生成pdf](/share/arts_week40_20201012/php生成pdf.md)
+
+[php内置异常](/share/arts_week41_20201027/php内置异常.md)
 
 share:
 
@@ -403,4 +413,6 @@ share:
 [php json_encode float](/tip/arts_week39_20200921/php json_encode float.md)
 
 [mysql删除数据](/tip/arts_week40_20201012/mysql删除数据.md)
+
+[前端跨域配置](/tip/arts_week41_20201027/前端跨域配置.md)
 
