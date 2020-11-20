@@ -102,6 +102,10 @@ algorithm:
 
 [#217. 存在重复元素](/algorithm/arts_week41_20201027/20201106/Solution.php)
 
+[#53. 最大子序和](/algorithm/arts_week42_20201109/20201111/Solution.js)
+
+[#70. 爬楼梯](/algorithm/arts_week42_20201109/20201120/Solution.php)
+
 review:
 
 [图片类app数据安全](/review/arts_week1_20190715/readme.md)
@@ -185,6 +189,10 @@ review:
 [redis常见延迟问题定位与分析](/review/arts_week40_20201012/readme.md)
 
 [富文本选型](/review/arts_week41_20201027/readme.md)
+
+[apache_doris](/review/arts_week42_20201109/apache_doris.md)
+
+[golang_project_structure](/review/arts_week42_20201109/golang_project_structure.md)
 
 tip:
 
@@ -279,6 +287,8 @@ tip:
 [php生成pdf](/share/arts_week40_20201012/php生成pdf.md)
 
 [php内置异常](/share/arts_week41_20201027/php内置异常.md)
+
+[钉钉机器人调用](/share/arts_week42_20201109/钉钉机器人调用.md)
 
 share:
 
@@ -415,4 +425,6 @@ share:
 [mysql删除数据](/tip/arts_week40_20201012/mysql删除数据.md)
 
 [前端跨域配置](/tip/arts_week41_20201027/前端跨域配置.md)
+
+[composer_memory_leak](/tip/arts_week42_20201109/composer_memory_leak.md)
 
