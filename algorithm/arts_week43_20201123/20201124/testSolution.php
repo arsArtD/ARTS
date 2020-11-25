@@ -14,7 +14,6 @@ use PHPUnit\Framework\TestCase;
 class testSolution extends TestCase
 {
     private $cls;
-    private $cls1;
 
     public function __construct()
     {
@@ -32,7 +31,6 @@ class testSolution extends TestCase
     }
 
     function test2() {
-        //echo 1%2;exit;
         self::assertEquals(false, $this->cls->isPowerOfTwo1(-1));
         self::assertEquals(false, $this->cls->isPowerOfTwo1(0));
         self::assertEquals(true, $this->cls->isPowerOfTwo1(1));
@@ -42,7 +40,6 @@ class testSolution extends TestCase
     }
 
     function test3() {
-        //echo 1%2;exit;
         self::assertEquals(false, $this->cls->isPowerOfTwo2(-1));
         self::assertEquals(false, $this->cls->isPowerOfTwo2(0));
         self::assertEquals(true, $this->cls->isPowerOfTwo2(1));
@@ -52,7 +49,6 @@ class testSolution extends TestCase
     }
 
     function test4() {
-        //echo 1%2;exit;
         self::assertEquals(false, $this->cls->isPowerOfTwo3(-1));
         self::assertEquals(false, $this->cls->isPowerOfTwo3(0));
         self::assertEquals(true, $this->cls->isPowerOfTwo3(1));
@@ -62,7 +58,6 @@ class testSolution extends TestCase
     }
 
     function test5() {
-        //echo 1%2;exit;
         self::assertEquals(false, $this->cls->isPowerOfTwo4(-1));
         self::assertEquals(false, $this->cls->isPowerOfTwo4(0));
         self::assertEquals(true, $this->cls->isPowerOfTwo4(1));
