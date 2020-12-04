@@ -106,6 +106,14 @@ algorithm:
 
 [#70. 爬楼梯](/algorithm/arts_week42_20201109/20201120/Solution.php)
 
+[#88. 合并两个有序数组](/algorithm/arts_week43_20201123/20201123/Solution.php)
+
+[#231. 2的幂](/algorithm/arts_week43_20201123/20201124/readme.md)
+
+[#14. 最长公共前缀](/algorithm/arts_week43_20201123/20201125/Solution.php)
+
+[#7. 整数反转](/algorithm/arts_week43_20201123/20201126/Solution.php)
+
 review:
 
 [图片类app数据安全](/review/arts_week1_20190715/readme.md)
@@ -193,6 +201,8 @@ review:
 [apache_doris](/review/arts_week42_20201109/apache_doris.md)
 
 [golang_project_structure](/review/arts_week42_20201109/golang_project_structure.md)
+
+[适合go新手学习的开源项目](/review/arts_week43_20201123/readme.md)
 
 tip:
 
@@ -289,6 +299,8 @@ tip:
 [php内置异常](/share/arts_week41_20201027/php内置异常.md)
 
 [钉钉机器人调用](/share/arts_week42_20201109/钉钉机器人调用.md)
+
+[terms搜索备注](/share/arts_week43_20201123/es terms搜索备注.md)
 
 share:
 
@@ -427,4 +439,6 @@ share:
 [前端跨域配置](/tip/arts_week41_20201027/前端跨域配置.md)
 
 [composer_memory_leak](/tip/arts_week42_20201109/composer_memory_leak.md)
+
+[nginx配置php](/tip/arts_week43_20201123/nginx配置php.md)
 
