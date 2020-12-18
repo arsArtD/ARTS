@@ -114,6 +114,12 @@ algorithm:
 
 [#7. 整数反转](/algorithm/arts_week43_20201123/20201126/Solution.php)
 
+[#59. 螺旋矩阵 II](/algorithm/arts_week44_20201207/20201208/Solution.php)
+
+[#46. 全排列](/algorithm/arts_week44_20201207/20201210/Solution.php)
+
+[#230. 二叉搜索树中第K小的元素 ](/algorithm/arts_week44_20201207/20201218/Solution.php)
+
 review:
 
 [图片类app数据安全](/review/arts_week1_20190715/readme.md)
@@ -203,6 +209,8 @@ review:
 [golang_project_structure](/review/arts_week42_20201109/golang_project_structure.md)
 
 [适合go新手学习的开源项目](/review/arts_week43_20201123/readme.md)
+
+[css实现用户追踪](/review/arts_week44_20201207/css实现用户追踪.md)
 
 tip:
 
@@ -301,6 +309,8 @@ tip:
 [钉钉机器人调用](/share/arts_week42_20201109/钉钉机器人调用.md)
 
 [terms搜索备注](/share/arts_week43_20201123/es terms搜索备注.md)
+
+[node增加环境支持](/share/arts_week44_20201207/node增加环境支持.md)
 
 share:
 
@@ -441,4 +451,6 @@ share:
 [composer_memory_leak](/tip/arts_week42_20201109/composer_memory_leak.md)
 
 [nginx配置php](/tip/arts_week43_20201123/nginx配置php.md)
+
+[vim跳转命令](/tip/arts_week44_20201207/vim跳转命令.md)
 
