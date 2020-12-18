@@ -16,19 +16,21 @@ function TreeNode(val) {
     this.left = this.right  = null;
 }
 
+// 将有序数组转换为二叉搜索树
+// 将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树
 var sortedArrayToBST = function(nums) {
-    return buildTree(nums, 0, nums.length - 1);
+    return sortedArrayToBST(nums, 0, nums.length - 1);
 };
 
-function buildTree(nums, left, right) {
+function sortedArrayToBST(nums, left, right) {
     if(left > right) {
         return null;
     }
     var mid = left + Math.ceil((right - left)/2);
     //console.log('mid is:', mid);
     var root = new TreeNode(nums[mid]);
-    root.left = buildTree(nums, left, mid - 1);
-    root.right = buildTree(nums, mid + 1, right);
+    root.left = sortedArrayToBST(nums, left, mid - 1);
+    root.right = sortedArrayToBST(nums, mid + 1, right);
     return root;
 }
 

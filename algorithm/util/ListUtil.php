@@ -59,3 +59,23 @@ class ListUtil
         return $head;
     }
 }
+
+
+class ListUtilTest extends \PHPUnit\Framework\TestCase
+{
+
+    public function test1()
+    {
+        $data =  [3,1,4,null,2];
+        $result = ListUtil::getListFromArr($data);
+        var_dump($result);
+        self::assertEquals(3, $result->val);
+        self::assertEquals(1, $result->next->val);
+        self::assertEquals(4, $result->next->next->val);
+        self::assertEquals(null, $result->next->next->next->val);
+        self::assertEquals(2, $result->next->next->next->next->val);
+
+        self::assertTrue(true);
+    }
+}
+
