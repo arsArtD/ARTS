@@ -10,9 +10,11 @@ class Solution
 {
     /**
      * @param Integer[] $nums
-     * 快排
+     * 快排,静态数据推荐
      * @ref https://leetcode-cn.com/problems/kth-largest-element-in-an-array/solution/shu-zu-zhong-de-di-kge-zui-da-yuan-su-by-leetcode-/
      * @param Integer $k
+     * 时间复杂度：O(n)
+     * 空间复杂度： O(logn)
      * @return Integer
      */
     function findKthLargest(array $nums, int $k) {
@@ -67,7 +69,7 @@ class Solution
     }
 
     private function buildMaxHeap(array &$arr, int $heapSize) {
-        for($i = floor($heapSize / 2); $i >= 0; --$i) {
+        for($i = $heapSize >> 2; $i >= 0; --$i) {
             $this->maxHeapify($arr, $i, $heapSize);
         }
     }
@@ -96,7 +98,7 @@ class Solution
     }
 
     /**
-     * 调用系统的堆函数
+     * 调用系统的堆函数, 动态数组推荐
      * @ref https://leetcode-cn.com/problems/kth-largest-element-in-an-array/solution/php-bao-li-pai-xu-jie-fa-zui-xiao-dui-jie-fa-by-zz/
      * @param array $nums
      * @param int $k

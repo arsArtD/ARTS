@@ -6,7 +6,7 @@
  * Time: 13:35
  */
 
-include __DIR__.DIRECTORY_SEPARATOR.'TreeNode.php';
+require_once __DIR__.DIRECTORY_SEPARATOR.'TreeNode.php';
 
 class TreeSerialize
 {

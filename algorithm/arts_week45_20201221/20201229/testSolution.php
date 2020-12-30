@@ -24,17 +24,27 @@ class testSolution extends TestCase
         self::assertEquals(5,  $this->cls->findKthLargest([3,2,1,5,6,4], 2));
 
         self::assertEquals(4,  $this->cls->findKthLargest([3,2,3,1,2,4,5,5,6], 4));
+    }
 
-        self::assertEquals(5,  $this->cls->findKthLargest2([3,2,1,5,6,4], 2));
-
-        self::assertEquals(4,  $this->cls->findKthLargest2([3,2,3,1,2,4,5,5,6], 4));
+    function test1() {
 
         self::assertEquals(5,  $this->cls->findKthLargest1([3,2,1,5,6,4], 2));
 
         self::assertEquals(4,  $this->cls->findKthLargest1([3,2,3,1,2,4,5,5,6], 4));
+    }
 
+    function test2() {
+        self::assertEquals(5,  $this->cls->findKthLargest2([3,2,1,5,6,4], 2));
+
+        self::assertEquals(4,  $this->cls->findKthLargest2([3,2,3,1,2,4,5,5,6], 4));
+
+    }
+
+    function test3() {
         self::assertEquals(5,  $this->cls->findKthLargest3([3,2,1,5,6,4], 2));
 
         self::assertEquals(4,  $this->cls->findKthLargest3([3,2,3,1,2,4,5,5,6], 4));
     }
+
+
 }
