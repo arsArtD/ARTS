@@ -120,6 +120,14 @@ algorithm:
 
 [#230. 二叉搜索树中第K小的元素 ](/algorithm/arts_week44_20201207/20201218/Solution.php)
 
+[#238. 除自身以外数组的乘积 ](/algorithm/arts_week45_20201221/20201225/Solution.php)
+
+[#11. 盛最多水的容器  ](/algorithm/arts_week45_20201221/20201228/Solution.php)
+
+[#215. 数组中的第K个最大元素](/algorithm/arts_week45_20201221/20201229/Solution.php)
+
+[#142. 环形链表 II](algorithm/arts_week45_20201221/20201230/Solution.php)
+
 review:
 
 [图片类app数据安全](/review/arts_week1_20190715/readme.md)
@@ -211,6 +219,8 @@ review:
 [适合go新手学习的开源项目](/review/arts_week43_20201123/readme.md)
 
 [css实现用户追踪](/review/arts_week44_20201207/css实现用户追踪.md)
+
+[js实现剪贴板](/review/arts_week45_20201221/js实现剪贴板.md)
 
 tip:
 
@@ -311,6 +321,10 @@ tip:
 [terms搜索备注](/share/arts_week43_20201123/es terms搜索备注.md)
 
 [node增加环境支持](/share/arts_week44_20201207/node增加环境支持.md)
+
+[nginx状态码](/share/arts_week45_20201221/nginx状态码.md)
+
+[前端_dotenv](/share/arts_week45_20201221/前端_dotenv.md)
 
 share:
 
@@ -453,4 +467,6 @@ share:
 [nginx配置php](/tip/arts_week43_20201123/nginx配置php.md)
 
 [vim跳转命令](/tip/arts_week44_20201207/vim跳转命令.md)
+
+[gcc64位windows版本](/tip/arts_week45_20201221/gcc64位windows版本.md)
 
